@@ -1,0 +1,12 @@
+#ifndef I2C_CFG_H_
+#define I2C_CFG_H_
+/* I2C_MODE OPTIONS */
+#define I2C_MODE  MASTER
+/* CRYSTAL_FREQ OPTIONS -> YOUR CRYSTAL FREQ IN MHZ */
+#define CRYSTAL_FREQ    16
+/*SCL_FREQ  -> FREQ OF I2C UP TO 400 KHZ */
+#define SCL_FREQ        400
+//
+#define  SLAVE_ADDRESS  2
+
+#endif 
